@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.boton button::before{
+    content: 'pasa por encima';
+    font-style: italic;
+}
+
+.boton button:hover{
+    background-color: green;
+    color: white;
+}
+
+.boton button::after{
+    content: 'hecho';
+}
